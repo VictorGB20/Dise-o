@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    padding: 20px;
+}
+
+h2 {
+    color: #c67b1d;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna {
+    background-color: #999;
+    color: white;
+    padding: 8px;
+    flex: auto;
+    margin: 2px;
+}

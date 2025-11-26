@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+    <style>
+        h1{
+            text-align: center;
+            margin: 2rem;
+        }
+        .imagenes{
+            width: 225px;
+            height: 225px;
+        }
+
+        .tabla {
+            border-collapse: collapse;
+        }
+
+        .tabla th,
+        td {
+            border: 1px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Metemos el style -->
+    
+    <!-- Ponemos las imagenes -->
+    <h1>Ejercicio Imagenes</h1>
+    <div align="center">
+    <p>
+        <a href="https://lenguajehtml.com/html/" target="_blank"><img src="img/html5.png" alt="html" class="imagenes"></a>
+        <a href="https://lenguajecss.com/" target="_blank"><img src="img/css3.png" alt="css" class="imagenes"></a>
+    </p>
+    <p>
+        <a href="https://www.google.com/intl/es_es/chrome/" target="_blank"><img src="img/chrome.jpeg" alt="chrome"></a>
+    </p>
+    </div>
+    
+    <hr>
+    <!-- Tarea 2: Listas -->
+    <h1>Ejercicio Listas</h1>
+    <p>Lista ordenada</p>
+    <ol type="i">
+        <li>General Aviation</li>
+            <ol type="a">
+                <li>Single Aviation Aircraft</li>
+                <li>Dual-Egine Aircraft</li>
+            </ol>
+        <li>Commercial Aviation</li>
+            <ul style="list-style-type: disc;">
+                <li>Dual Engine</li>
+                <li>Tri-Engine</li>
+            </ul>
+    </ol>
+    <ul style="list-style-type: square;">
+        <li>A</li>
+            <ul style="list-style-type: disc;">
+                <li>B
+                    <ol>
+                        <li>C</li>
+                        <LI>D</LI>
+                    </ol>
+                </li>
+                <li>E
+                    <UL>
+                        <li>F</li>
+                        <li>G</li>
+                    </UL>
+                </li>
+            </ul>
+        <li>B</li>
+    </ul>
+    
+    <hr>
+    <h1>Ejercicio Tabla</h1>
+    <table align="center" class="tabla">
+        <thead>
+            <tr>
+                <td></td>
+                <td colspan="3"align="center"><img src="img/120_ipod.png" alt="120_ipod"></td>
+                <td colspan="2"align="center"><img src="img/100_ipod.png" alt="100_ipod" width="100px"></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><strong>Capacidad</strong></th>
+                <td>2GB</td>
+                <td>4GB</td>
+                <td>8GB</td>
+                <td>32GB</td>
+                <td>2GB</td>
+            </tr>
+            <tr>
+                <th><strong>Colores</strong></th>
+                <th>Blanco</th>
+                <td>
+                    <ul style="list-style-type: disc;">
+                        <li>Negro</li>
+                        <li>Rosa</li>
+                        <li>Dorado</li>
+                    </ul>
+                </td>
+                <th>Negro</th>
+                <td colspan="2">
+                    <ul>
+                        <li>Negro</li>
+                        <li>Blanco</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Pantalla</th>
+                <th colspan="3">3 pulgadas</th>
+                <th colspan="2">7 pulgadas</th>
+            </tr>
+            <tr>
+                <th rowspan="2">Tiempo de carga</th>
+                <th colspan="3" rowspan="2">1 hora</th>
+                <th colspan="2">5 horas</th>
+            </tr>
+            <tr>
+                <th colspan="2">30 minutos para 75%</th>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>

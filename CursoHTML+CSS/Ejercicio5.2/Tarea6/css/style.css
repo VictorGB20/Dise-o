@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+}
+main{
+    justify-content: center;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fila{
+    display: flex;
+}
+img{
+    width: 200px;
+    height: auto;
+    margin: 5px;
+}

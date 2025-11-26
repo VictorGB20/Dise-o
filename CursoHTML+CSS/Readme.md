@@ -1,0 +1,1 @@
+Esta carpeta va a consistir en los ejercicios realizados del curso de OpenWebinars

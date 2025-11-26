@@ -1,0 +1,157 @@
+
+    /* GENERAL */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    /* FIXED */
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      z-index: 1000; 
+    }
+
+    /* LAYOUT (fixed + fluid) */
+    .container {
+      max-width: 1200px;
+      margin: 80px auto 0 auto;
+      padding: 20px;
+      background-color: white;
+      display: block;
+    }
+
+    /* CENTRADO BLOQUE HORIZONTAL */
+    .center-block {
+      margin: 0 auto;
+      width: 200px;
+      background-color: #e0e0e0;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* INLINE y INLINE-BLOCK */
+    .inline-example span {
+      display: inline;
+      background-color: #cce5ff;
+      margin: 5px;
+    }
+
+    .inline-block-example div {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      background-color: #d4edda;
+      margin: 5px;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    /* LAYOUT: Elastic */
+    .elastic-box {
+      width: 30em;
+      background-color: #f9f871;
+      padding: 1em;
+    }
+
+    /* LAYOUT: Fluid */
+    .fluid-box {
+      width: 100%;
+      background-color: #b3e6ff;
+      padding: 10px;
+    }
+
+    /* CENTRADO VERTICAL INLINE */
+    .vertical-inline {
+      height: 100px;
+      line-height: 100px;
+      text-align: center;
+      background-color: #f7c6c7;
+    }
+
+    /* CENTRADO VERTICAL BLOQUE */
+    .vertical-block-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      background-color: #ffe6cc;
+    }
+
+    /* POSITION: relative + absolute + static + sticky */
+    .position-example {
+      position: relative;
+      background-color: #ccc;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+
+    .absolute-box {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: red;
+      color: white;
+      padding: 5px;
+    }
+
+    .static-box {
+      position: static;
+      background-color: #aaa;
+      padding: 5px;
+      margin-top: 10px;
+    }
+
+    .sticky-box {
+      position: sticky;
+      top: 0;
+      background-color: orange;
+      padding: 5px;
+    }
+
+    /* COLUMNAS */
+    .columnas {
+      column-count: 3;
+      column-gap: 20px;
+      column-rule: 2px solid #999;
+      background-color: #f0f0f0;
+      padding: 10px;
+    }
+
+    /* FLOTANTES */
+    .float-container {
+      background-color: #eee;
+      overflow: auto;
+    }
+
+    .float-box {
+      width: 45%;
+      padding: 10px;
+      background-color: #d1ecf1;
+      margin: 10px;
+    }
+
+    .left {
+      float: left;
+    }
+
+    .right {
+      float: right;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }

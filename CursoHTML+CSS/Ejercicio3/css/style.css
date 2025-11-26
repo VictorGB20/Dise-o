@@ -1,0 +1,100 @@
+
+/*
+Estilos globales
+*/
+table {
+    border-collapse: collapse;
+    margin: 0px auto;
+    width: 50%;
+}
+th, td {
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.centrado{
+    text-align: center; 
+}
+.izquierdo{
+    margin-left: 25%;
+    text-align: left; 
+    width: 20%;
+}
+
+/*
+Primera tabla
+*/
+.tablaprimera {
+    font-size: 2rem;
+}
+
+th>img {
+    height: 75px;
+    width: auto;
+}
+.azulado {
+    background-color: blue;
+}
+
+.rojizotitulo {
+    background-color: red;
+    color: white;
+}
+
+.rojizotexto {
+    color: red;
+}
+
+.grisaceo{
+    background-color: grey;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.dorado {
+  background-color: yellow;
+}
+.tamanocelda {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*
+Segunda tabla
+*/
+/* Cambiar los estado de los enlaces para que:
+
+ Nunca estén subrayados
+ Si están visitados se muestren en rojo
+ Si no están visitado se muestren en verde */
+
+.verdoso{
+    background-color: green;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+thead tr th::first-letter {
+  font-size: 2em;
+}
+
+input:required {
+  border: 1px solid red;
+  padding: 10px;
+}
+label::after {
+  color: red;
+  content: "*";
+}

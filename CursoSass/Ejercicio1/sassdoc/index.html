@@ -1,0 +1,490 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>SassDoc</title><link rel="stylesheet" href="assets/css/main.css"><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width"><meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"><!-- Open Graph tags --><meta property="og:title" content="SassDoc - SassDoc"><meta property="og:type" content="website"><meta property="og:description" content="Release the docs!"><!-- Thanks to Sass-lang.com for the icons --><link href="assets/images/favicon.png" rel="shortcut icon"></head><body><aside class="sidebar" role="nav"><div class="sidebar__header"><h1 class="sidebar__title">SassDoc</h1></div><div class="sidebar__body"><button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button><p class="sidebar__item sidebar__item--heading" data-slug="undefined"><a href="#undefined">General</a></p><div><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-variable"><a href="#undefined-variable">variables</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="color-background" data-type="variable"><a href="#undefined-variable-color-background">color-background</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="color-error" data-type="variable"><a href="#undefined-variable-color-error">color-error</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="main-container-width" data-type="variable"><a href="#undefined-variable-main-container-width">main-container-width</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="border-color" data-type="variable"><a href="#undefined-variable-border-color">border-color</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="navbar-background-color-light" data-type="variable"><a href="#undefined-variable-navbar-background-color-light">navbar-background-color-light</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="navbar-padding" data-type="variable"><a href="#undefined-variable-navbar-padding">navbar-padding</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="light-theme" data-type="variable"><a href="#undefined-variable-light-theme">light-theme</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="test" data-type="variable"><a href="#undefined-variable-test">test</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="num" data-type="variable"><a href="#undefined-variable-num">num</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="mapa" data-type="variable"><a href="#undefined-variable-mapa">mapa</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-css"><a href="#undefined-css">css</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="///Colores generales
+$color-background: #FFFFFF;
+$color-base: #333333;
+
+
+///Colores de base
+$color-error: #FF0000;
+$color-warning: rgb(239, 241, 120);
+$color-accepted: rgb(55, 138, 0);
+$color-normal: rgb(0, 110, 255);
+$color-shadow: #888;
+
+///Estilos para el contenedor general de mi página
+$main-container-width: 80%;
+$main-container-margin: 0px auto;
+
+///Estilos para los bordes
+$border-color: $color-base;
+$border-width: 0.1rem;
+$border-style: &quot;solid&quot;;
+$border-radius-small: 0.2rem;
+$border-radius: 1rem;
+$boder-radius-big: 2rem;
+
+
+///Colores barra de menú
+$navbar-background-color-light: rgb(155, 111, 145);
+$navbar-background-color-dark: rgb(46, 40, 140);
+$body-background-color-light: rgb(146, 130, 142);
+$body-background-color-dark: rgb(94, 91, 147);
+$navbar-color-hover: $color-background;
+
+///navbar padding
+$navbar-padding: 0.2rem;
+$navbar-li-paddingleft: 1rem;
+$navbar-li-paddingright: 1rem;
+$navbar-li-display: inline-block;
+$navbar-li-active-fontweight: bolder;
+$navbar-li-textdecoration: none;
+
+/*Estructura de anidamiento para la figura (cards)*/
+$figure-width: 25%;
+
+///modo de vista
+$light-theme: true;
+$dark-theme: true;
+
+///Variable de test
+$test: false;
+
+///Listas de colores
+$num:1;
+$color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0);
+$color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0);
+
+///Mixin
+
+@mixin centrado" data-type="css"><a href="#undefined-css-///Colores generales
+$color-background: #FFFFFF;
+$color-base: #333333;
+
+
+///Colores de base
+$color-error: #FF0000;
+$color-warning: rgb(239, 241, 120);
+$color-accepted: rgb(55, 138, 0);
+$color-normal: rgb(0, 110, 255);
+$color-shadow: #888;
+
+///Estilos para el contenedor general de mi página
+$main-container-width: 80%;
+$main-container-margin: 0px auto;
+
+///Estilos para los bordes
+$border-color: $color-base;
+$border-width: 0.1rem;
+$border-style: &quot;solid&quot;;
+$border-radius-small: 0.2rem;
+$border-radius: 1rem;
+$boder-radius-big: 2rem;
+
+
+///Colores barra de menú
+$navbar-background-color-light: rgb(155, 111, 145);
+$navbar-background-color-dark: rgb(46, 40, 140);
+$body-background-color-light: rgb(146, 130, 142);
+$body-background-color-dark: rgb(94, 91, 147);
+$navbar-color-hover: $color-background;
+
+///navbar padding
+$navbar-padding: 0.2rem;
+$navbar-li-paddingleft: 1rem;
+$navbar-li-paddingright: 1rem;
+$navbar-li-display: inline-block;
+$navbar-li-active-fontweight: bolder;
+$navbar-li-textdecoration: none;
+
+/*Estructura de anidamiento para la figura (cards)*/
+$figure-width: 25%;
+
+///modo de vista
+$light-theme: true;
+$dark-theme: true;
+
+///Variable de test
+$test: false;
+
+///Listas de colores
+$num:1;
+$color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0);
+$color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0);
+
+///Mixin
+
+@mixin centrado">///Colores generales $color-background: #FFFFFF; $color-base: #333333; ///Colores de base $color-error: #FF0000; $color-warning: rgb(239, 241, 120); $color-accepted: rgb(55, 138, 0); $color-normal: rgb(0, 110, 255); $color-shadow: #888; ///Estilos para el contenedor general de mi página $main-container-width: 80%; $main-container-margin: 0px auto; ///Estilos para los bordes $border-color: $color-base; $border-width: 0.1rem; $border-style: &quot;solid&quot;; $border-radius-small: 0.2rem; $border-radius: 1rem; $boder-radius-big: 2rem; ///Colores barra de menú $navbar-background-color-light: rgb(155, 111, 145); $navbar-background-color-dark: rgb(46, 40, 140); $body-background-color-light: rgb(146, 130, 142); $body-background-color-dark: rgb(94, 91, 147); $navbar-color-hover: $color-background; ///navbar padding $navbar-padding: 0.2rem; $navbar-li-paddingleft: 1rem; $navbar-li-paddingright: 1rem; $navbar-li-display: inline-block; $navbar-li-active-fontweight: bolder; $navbar-li-textdecoration: none; /*Estructura de anidamiento para la figura (cards)*/ $figure-width: 25%; ///modo de vista $light-theme: true; $dark-theme: true; ///Variable de test $test: false; ///Listas de colores $num:1; $color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0); $color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0); ///Mixin @mixin centrado</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="body" data-type="css"><a href="#undefined-css-body">body</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="border-bottom: 5px solid list.nth($color-list2, $i);
+                }
+            }
+            a" data-type="css"><a href="#undefined-css-border-bottom: 5px solid list.nth($color-list2, $i);
+                }
+            }
+            a">border-bottom: 5px solid list.nth($color-list2, $i); } } a</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="width: $figure-width;
+    
+    img" data-type="css"><a href="#undefined-css-width: $figure-width;
+    
+    img">width: $figure-width; img</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name=".btn" data-type="css"><a href="#undefined-css-.btn">.btn</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="&amp;:hover" data-type="css"><a href="#undefined-css-&amp;:hover">&amp;:hover</a></li><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="&amp;:active" data-type="css"><a href="#undefined-css-&amp;:active">&amp;:active</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-mixin"><a href="#undefined-mixin">mixins</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="centrado" data-type="mixin"><a href="#undefined-mixin-centrado">centrado</a></li></ul><p class="sidebar__item sidebar__item--sub-heading" data-slug="undefined-function"><a href="#undefined-function">functions</a></p><ul class="list-unstyled"><li class="sidebar__item sassdoc__item" data-group="undefined" data-name="anchura-col" data-type="function"><a href="#undefined-function-anchura-col">anchura-col</a></li></ul></div></div></aside><article class="main" role="main"><header class="header" role="banner"><div class="container"><div class="sassdoc__searchbar searchbar"><label for="js-search-input" class="visually-hidden">Search</label><div class="searchbar__form" id="js-search"><input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search"><ul class="searchbar__suggestions" id="js-search-suggestions"></ul></div></div></div></header><section class="main__section"><h1 class="main__heading" id="undefined"><div class="container">General</div></h1><section class="main__sub-section" id="undefined-variable"><h2 class="main__heading--secondary"><div class="container">variables</div></h2><section class="main__item container item" id="undefined-variable-color-background"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-color-background">color-background</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$color-background: #FFFFFF;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Colores generales</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-color-error"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-color-error">color-error</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$color-error: #FF0000;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Colores de base</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-main-container-width"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-main-container-width">main-container-width</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$main-container-width: 80%;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Estilos para el contenedor general de mi página</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-border-color"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-border-color">border-color</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$border-color: $color-base;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Estilos para los bordes</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-navbar-background-color-light"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-navbar-background-color-light">navbar-background-color-light</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$navbar-background-color-light: rgb(155, 111, 145);</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Colores barra de menú</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-navbar-padding"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-navbar-padding">navbar-padding</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$navbar-padding: 0.2rem;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>navbar padding</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-light-theme"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-light-theme">light-theme</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$light-theme: true;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>modo de vista</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-test"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-test">test</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$test: false;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Variable de test</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-num"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-num">num</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$num: 1;</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Listas de colores</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-variable-mapa"><h3 class="item__heading"><a class="item__name" href="#undefined-variable-mapa">mapa</a></h3><div class="item__code-wrapper"><pre class="item__code language-scss"><code>$mapa: (
+    italia: &quot;italia.png&quot;,
+    francia: &quot;francia.png&quot;,
+    espana: &quot;espana.png&quot;,
+    alemania: &quot;alemania.png&quot;
+);</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section></section><section class="main__sub-section" id="undefined-css"><h2 class="main__heading--secondary"><div class="container">css</div></h2><section class="main__item container item" id="undefined-css-///Colores generales
+$color-background: #FFFFFF;
+$color-base: #333333;
+
+
+///Colores de base
+$color-error: #FF0000;
+$color-warning: rgb(239, 241, 120);
+$color-accepted: rgb(55, 138, 0);
+$color-normal: rgb(0, 110, 255);
+$color-shadow: #888;
+
+///Estilos para el contenedor general de mi página
+$main-container-width: 80%;
+$main-container-margin: 0px auto;
+
+///Estilos para los bordes
+$border-color: $color-base;
+$border-width: 0.1rem;
+$border-style: &quot;solid&quot;;
+$border-radius-small: 0.2rem;
+$border-radius: 1rem;
+$boder-radius-big: 2rem;
+
+
+///Colores barra de menú
+$navbar-background-color-light: rgb(155, 111, 145);
+$navbar-background-color-dark: rgb(46, 40, 140);
+$body-background-color-light: rgb(146, 130, 142);
+$body-background-color-dark: rgb(94, 91, 147);
+$navbar-color-hover: $color-background;
+
+///navbar padding
+$navbar-padding: 0.2rem;
+$navbar-li-paddingleft: 1rem;
+$navbar-li-paddingright: 1rem;
+$navbar-li-display: inline-block;
+$navbar-li-active-fontweight: bolder;
+$navbar-li-textdecoration: none;
+
+/*Estructura de anidamiento para la figura (cards)*/
+$figure-width: 25%;
+
+///modo de vista
+$light-theme: true;
+$dark-theme: true;
+
+///Variable de test
+$test: false;
+
+///Listas de colores
+$num:1;
+$color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0);
+$color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0);
+
+///Mixin
+
+@mixin centrado"><h3 class="item__heading"><a class="item__name" href="#undefined-css-///Colores generales
+$color-background: #FFFFFF;
+$color-base: #333333;
+
+
+///Colores de base
+$color-error: #FF0000;
+$color-warning: rgb(239, 241, 120);
+$color-accepted: rgb(55, 138, 0);
+$color-normal: rgb(0, 110, 255);
+$color-shadow: #888;
+
+///Estilos para el contenedor general de mi página
+$main-container-width: 80%;
+$main-container-margin: 0px auto;
+
+///Estilos para los bordes
+$border-color: $color-base;
+$border-width: 0.1rem;
+$border-style: &quot;solid&quot;;
+$border-radius-small: 0.2rem;
+$border-radius: 1rem;
+$boder-radius-big: 2rem;
+
+
+///Colores barra de menú
+$navbar-background-color-light: rgb(155, 111, 145);
+$navbar-background-color-dark: rgb(46, 40, 140);
+$body-background-color-light: rgb(146, 130, 142);
+$body-background-color-dark: rgb(94, 91, 147);
+$navbar-color-hover: $color-background;
+
+///navbar padding
+$navbar-padding: 0.2rem;
+$navbar-li-paddingleft: 1rem;
+$navbar-li-paddingright: 1rem;
+$navbar-li-display: inline-block;
+$navbar-li-active-fontweight: bolder;
+$navbar-li-textdecoration: none;
+
+/*Estructura de anidamiento para la figura (cards)*/
+$figure-width: 25%;
+
+///modo de vista
+$light-theme: true;
+$dark-theme: true;
+
+///Variable de test
+$test: false;
+
+///Listas de colores
+$num:1;
+$color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0);
+$color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0);
+
+///Mixin
+
+@mixin centrado">///Colores generales $color-background: #FFFFFF; $color-base: #333333; ///Colores de base $color-error: #FF0000; $color-warning: rgb(239, 241, 120); $color-accepted: rgb(55, 138, 0); $color-normal: rgb(0, 110, 255); $color-shadow: #888; ///Estilos para el contenedor general de mi página $main-container-width: 80%; $main-container-margin: 0px auto; ///Estilos para los bordes $border-color: $color-base; $border-width: 0.1rem; $border-style: &quot;solid&quot;; $border-radius-small: 0.2rem; $border-radius: 1rem; $boder-radius-big: 2rem; ///Colores barra de menú $navbar-background-color-light: rgb(155, 111, 145); $navbar-background-color-dark: rgb(46, 40, 140); $body-background-color-light: rgb(146, 130, 142); $body-background-color-dark: rgb(94, 91, 147); $navbar-color-hover: $color-background; ///navbar padding $navbar-padding: 0.2rem; $navbar-li-paddingleft: 1rem; $navbar-li-paddingright: 1rem; $navbar-li-display: inline-block; $navbar-li-active-fontweight: bolder; $navbar-li-textdecoration: none; /*Estructura de anidamiento para la figura (cards)*/ $figure-width: 25%; ///modo de vista $light-theme: true; $dark-theme: true; ///Variable de test $test: false; ///Listas de colores $num:1; $color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0); $color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0); ///Mixin @mixin centrado</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>///Colores generales
+$color-background: #FFFFFF;
+$color-base: #333333;
+
+
+///Colores de base
+$color-error: #FF0000;
+$color-warning: rgb(239, 241, 120);
+$color-accepted: rgb(55, 138, 0);
+$color-normal: rgb(0, 110, 255);
+$color-shadow: #888;
+
+///Estilos para el contenedor general de mi página
+$main-container-width: 80%;
+$main-container-margin: 0px auto;
+
+///Estilos para los bordes
+$border-color: $color-base;
+$border-width: 0.1rem;
+$border-style: &quot;solid&quot;;
+$border-radius-small: 0.2rem;
+$border-radius: 1rem;
+$boder-radius-big: 2rem;
+
+
+///Colores barra de menú
+$navbar-background-color-light: rgb(155, 111, 145);
+$navbar-background-color-dark: rgb(46, 40, 140);
+$body-background-color-light: rgb(146, 130, 142);
+$body-background-color-dark: rgb(94, 91, 147);
+$navbar-color-hover: $color-background;
+
+///navbar padding
+$navbar-padding: 0.2rem;
+$navbar-li-paddingleft: 1rem;
+$navbar-li-paddingright: 1rem;
+$navbar-li-display: inline-block;
+$navbar-li-active-fontweight: bolder;
+$navbar-li-textdecoration: none;
+
+/*Estructura de anidamiento para la figura (cards)*/
+$figure-width: 25%;
+
+///modo de vista
+$light-theme: true;
+$dark-theme: true;
+
+///Variable de test
+$test: false;
+
+///Listas de colores
+$num:1;
+$color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0);
+$color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0);
+
+///Mixin
+
+@mixin centrado {
+  margin: 0px auto;
+  align-content: center;
+}</code>" data-collapsed="///Colores generales
+$color-background: #FFFFFF;
+$color-base: #333333;
+
+
+///Colores de base
+$color-error: #FF0000;
+$color-warning: rgb(239, 241, 120);
+$color-accepted: rgb(55, 138, 0);
+$color-normal: rgb(0, 110, 255);
+$color-shadow: #888;
+
+///Estilos para el contenedor general de mi página
+$main-container-width: 80%;
+$main-container-margin: 0px auto;
+
+///Estilos para los bordes
+$border-color: $color-base;
+$border-width: 0.1rem;
+$border-style: &quot;solid&quot;;
+$border-radius-small: 0.2rem;
+$border-radius: 1rem;
+$boder-radius-big: 2rem;
+
+
+///Colores barra de menú
+$navbar-background-color-light: rgb(155, 111, 145);
+$navbar-background-color-dark: rgb(46, 40, 140);
+$body-background-color-light: rgb(146, 130, 142);
+$body-background-color-dark: rgb(94, 91, 147);
+$navbar-color-hover: $color-background;
+
+///navbar padding
+$navbar-padding: 0.2rem;
+$navbar-li-paddingleft: 1rem;
+$navbar-li-paddingright: 1rem;
+$navbar-li-display: inline-block;
+$navbar-li-active-fontweight: bolder;
+$navbar-li-textdecoration: none;
+
+/*Estructura de anidamiento para la figura (cards)*/
+$figure-width: 25%;
+
+///modo de vista
+$light-theme: true;
+$dark-theme: true;
+
+///Variable de test
+$test: false;
+
+///Listas de colores
+$num:1;
+$color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0);
+$color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0);
+
+///Mixin
+
+@mixin centrado { ... }"><code>///Colores generales
+$color-background: #FFFFFF;
+$color-base: #333333;
+
+
+///Colores de base
+$color-error: #FF0000;
+$color-warning: rgb(239, 241, 120);
+$color-accepted: rgb(55, 138, 0);
+$color-normal: rgb(0, 110, 255);
+$color-shadow: #888;
+
+///Estilos para el contenedor general de mi página
+$main-container-width: 80%;
+$main-container-margin: 0px auto;
+
+///Estilos para los bordes
+$border-color: $color-base;
+$border-width: 0.1rem;
+$border-style: &quot;solid&quot;;
+$border-radius-small: 0.2rem;
+$border-radius: 1rem;
+$boder-radius-big: 2rem;
+
+
+///Colores barra de menú
+$navbar-background-color-light: rgb(155, 111, 145);
+$navbar-background-color-dark: rgb(46, 40, 140);
+$body-background-color-light: rgb(146, 130, 142);
+$body-background-color-dark: rgb(94, 91, 147);
+$navbar-color-hover: $color-background;
+
+///navbar padding
+$navbar-padding: 0.2rem;
+$navbar-li-paddingleft: 1rem;
+$navbar-li-paddingright: 1rem;
+$navbar-li-display: inline-block;
+$navbar-li-active-fontweight: bolder;
+$navbar-li-textdecoration: none;
+
+/*Estructura de anidamiento para la figura (cards)*/
+$figure-width: 25%;
+
+///modo de vista
+$light-theme: true;
+$dark-theme: true;
+
+///Variable de test
+$test: false;
+
+///Listas de colores
+$num:1;
+$color-list: #aaa, #00f, orange, #CCC, rgb(0, 255, 0);
+$color-list2: #3a3a3a, rgb(0, 0, 112), rgb(100, 65, 0), #4c4c4c, rgb(0, 98, 0);
+
+///Mixin
+
+@mixin centrado { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Paletas de colores básica</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-css-body"><h3 class="item__heading"><a class="item__name" href="#undefined-css-body">body</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>body {
+  @if $light-theme == true{
+        background-color: $body-background-color-light;
+        color: #000;
+    }@else if $dark-theme == true{
+        background-color: $body-background-color-dark;
+        color: #fff;
+    }@else{
+        background-color: #aaa;
+        color: #444;
+    }
+    @if $test {
+        @error &quot;Alerta, bomba activa. Salga corriendo.&quot;;
+        @debug &quot;Test tiene el siguiente valor: #{$test}&quot;; ///nuca sale
+    }@else {
+        @warn &quot;Todo esta correcto, pero ten cuidado que soy inestable.&quot;;
+        @debug &quot;Test tiene el siguiente valor: #{$test}&quot;; ///Sale cuando test es false
+    }
+}</code>" data-collapsed="body { ... }"><code>body { ... }</code></pre></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-css-border-bottom: 5px solid list.nth($color-list2, $i);
+                }
+            }
+            a"><h3 class="item__heading"><a class="item__name" href="#undefined-css-border-bottom: 5px solid list.nth($color-list2, $i);
+                }
+            }
+            a">border-bottom: 5px solid list.nth($color-list2, $i); } } a</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>border-bottom: 5px solid list.nth($color-list2, $i);
+                }
+            }
+            a {
+  text-decoration: none;
+}</code>" data-collapsed="border-bottom: 5px solid list.nth($color-list2, $i);
+                }
+            }
+            a { ... }"><code>border-bottom: 5px solid list.nth($color-list2, $i);
+                }
+            }
+            a { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>background-color: list.nth($color-list2, $i);</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-css-width: $figure-width;
+    
+    img"><h3 class="item__heading"><a class="item__name" href="#undefined-css-width: $figure-width;
+    
+    img">width: $figure-width; img</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>width: $figure-width;
+    
+    img {
+  border-radius: $boder-radius-big; 
+        width: 100%;
+}</code>" data-collapsed="width: $figure-width;
+    
+    img { ... }"><code>width: $figure-width;
+    
+    img { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>width: anchura-col(4,1);</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-css-.btn"><h3 class="item__heading"><a class="item__name" href="#undefined-css-.btn">.btn</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>.btn {
+  display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    ///Estilo para el efecto de cuando pase el ratón por encima
+    &amp;:hover {box-shadow: 0.2rem 0.2rem $color-shadow;}
+    ///Estilo al hacer click en el boton
+    &amp;:active {
+        background-color: orange;
+        color: white;
+        
+    }
+}</code>" data-collapsed=".btn { ... }"><code>.btn { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Elemento botón general</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-css-&amp;:hover"><h3 class="item__heading"><a class="item__name" href="#undefined-css-&amp;:hover">&amp;:hover</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>&amp;:hover {
+  box-shadow: 0.2rem 0.2rem $color-shadow;
+}</code>" data-collapsed="&amp;:hover { ... }"><code>&amp;:hover { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Estilo para el efecto de cuando pase el ratón por encima</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section><section class="main__item container item" id="undefined-css-&amp;:active"><h3 class="item__heading"><a class="item__name" href="#undefined-css-&amp;:active">&amp;:active</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="<code>&amp;:active {
+  background-color: orange;
+        color: white;
+}</code>" data-collapsed="&amp;:active { ... }"><code>&amp;:active { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Estilo al hacer click en el boton</p></div><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section></section><section class="main__sub-section" id="undefined-mixin"><h2 class="main__heading--secondary"><div class="container">mixins</div></h2><section class="main__item container item" id="undefined-mixin-centrado"><h3 class="item__heading"><a class="item__name" href="#undefined-mixin-centrado">centrado</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@mixin centrado() { 
+  margin: 0px auto;
+  align-content: center;
+ }" data-collapsed="@mixin centrado() { ... }"><code>@mixin centrado() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Mixin</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section></section><section class="main__sub-section" id="undefined-function"><h2 class="main__heading--secondary"><div class="container">functions</div></h2><section class="main__item container item" id="undefined-function-anchura-col"><h3 class="item__heading"><a class="item__name" href="#undefined-function-anchura-col">anchura-col</a></h3><div class="item__code-wrapper"><pre class="item__code item__code--togglable language-scss" data-current-state="collapsed" data-expanded="@function anchura-col() { 
+  @return percentage($cols/$total);
+ }" data-collapsed="@function anchura-col() { ... }"><code>@function anchura-col() { ... }</code></pre></div><h3 class="item__sub-heading">Description</h3><div class="item__description"><p>Definicion de funciones por el usuario</p></div><h3 class="item__sub-heading">Parameters</h3><p>None.</p><h3 class="item__sub-heading">Author</h3><ul class="list-unstyled"><li><p>VictorGB20</p></li></ul></section></section></section><footer class="footer" role="contentinfo"><div class="container"><div class="footer__project-info project-info"><!-- Name and URL --> <span class="project-info__name">SassDoc</span><!-- Version --><!-- License --></div><a class="footer__watermark" href="http://sassdoc.com"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a></div></footer></article><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script></body></html>
