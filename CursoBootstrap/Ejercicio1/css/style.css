@@ -1,0 +1,34 @@
+body{
+    margin: 20px;
+}
+
+.container-fluid{
+    text-align: center;
+    height: 100vh;
+    
+}
+.row{
+    justify-content: center;
+    align-items: center;
+}
+
+div.container-fluid div.row div {
+    height: 200px;
+    
+}
+
+.red{
+    background-color: red;
+}
+.darkblue{
+    background-color: darkblue;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
