@@ -82,10 +82,3 @@ Ejemplo de uso de **`SPRITE.SVG`**:
 </svg>
 
 ```
-Resultado:
-<br>
-<svg height="100" fill="currentColor" viewBox="0 0 30 25" aria-hidden="true">
-    <path fill-rule="evenodd"
-        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-        clip-rule="evenodd" />
-</svg>
