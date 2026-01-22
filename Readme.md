@@ -37,6 +37,13 @@
 
 <br><br>
 
+## EJERCICIOS CURSO TAILWIND 🪶​
+* [**Ejercicio 1**](https://github.com/VictorGB20/Dise-o/tree/61873ef79b1b1f3e54da3792981f9e8fdf391c5e/CursoTailwind/Tarea1): Introducción al Tailwind
+
+    ![Portfolio](/CursoTailwind/portfolio.png)
+
+<br><br>
+
 ## Ejemplos de código usado
 Ejemplo de código **`HTML`**:
 ```html
@@ -66,3 +73,19 @@ body {
 }
 
 ```
+Ejemplo de uso de **`SPRITE.SVG`**:
+```html
+<svg class="w-8 h-8 text-blue-500 inline" fill="currentColor" viewBox="0 0 30 25" aria-hidden="true">
+    <path fill-rule="evenodd"
+        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+        clip-rule="evenodd" />
+</svg>
+
+```
+Resultado:
+<br>
+<svg height="100" fill="currentColor" viewBox="0 0 30 25" aria-hidden="true">
+    <path fill-rule="evenodd"
+        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+        clip-rule="evenodd" />
+</svg>
